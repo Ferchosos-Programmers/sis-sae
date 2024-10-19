@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Luis Fernando",
+      "lastname": "Mallitaxi Chuquiano",
+      "cedula": "1752095867",
+      "telefono": "0997511386",
+      "email": "super_admin@gmail.com",
+      "password": "$2a$10$8VAhIxjSmvYvL04xi4yU3OqSzpkkrtz7lJ.bcaMcpkOjNa5FbHKlm",
+      "role": "Administrador"
+    },
+    {
+      "email": "alumno2@gmail.com",
+      "password": "$2a$10$eHw3yjwcvganxTt4CZkhquiIVzKFpX9TsoZdvYgdcy3ciTva4jiDe",
+      "name": "Alicia Maria",
+      "lastname": "Chuqiano",
+      "cedula": "1710112903",
+      "telefono": "0989555936",
+      "role": "Alumno",
+      "id": 4
+    },
+    {
+      "email": "aolalla@gmail.com",
+      "password": "$2a$10$49MlSwhr3kJ/xgEY7O2Zp.ZU.Y6yIo/V35FmBo3XXRaW/wuqf9KL.",
+      "name": "Alexander Jesus",
+      "lastname": "Olalla Mallitaxi",
+      "cedula": "1234567890",
+      "telefono": "0980155953",
+      "role": "Alumno",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Martha Elizabeth",
+      "lastname": "Caza Morocho",
+      "cedula": "1478523690",
+      "telefono": "0989555987",
+      "email": "mcaza@gmail.com",
+      "password": "$2a$10$mfLCiZF7GCzsOy7Yd1YcpeGiX5OO7.Bm5xh5UJ08DXZK5W0557wMu",
+      "role": "Profesor"
+    },
+    {
+      "id": 7,
+      "name": "Administrador",
+      "lastname": "Administrador",
+      "cedula": "1752095868",
+      "telefono": "0997511369",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$KU4loqHBnrEFC/jFWPPI6.YRu4MKT.QvodATdiu8vnUa9WOkgQlJm",
+      "role": "Administrador"
+    },
+    {
+      "id": 8,
+      "name": "Alexandra Matilde",
+      "lastname": "Chuquiano Mallitaxi ",
+      "cedula": "1721442117",
+      "telefono": "097598675",
+      "email": "achuquiano@sae.edu.com",
+      "password": "$2a$10$rnO.JmjWsKeqfgrmxeeqLeJuY1TJfdyox2EpK8HyGlUgTiy2INSa6",
+      "role": "Alumno"
+    }
+  ]
+}

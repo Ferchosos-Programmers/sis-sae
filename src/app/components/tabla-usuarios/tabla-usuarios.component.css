@@ -1,0 +1,12 @@
+h2 {
+    text-align: center;
+}
+
+/* Contenedor para los botones */
+.btn-group-responsive {
+    display: inline-flex;
+    gap: 10px;
+    /* Espacio entre los botones */
+    flex-wrap: wrap;
+    /* Permite que los botones se ajusten en pantallas pequeñas */
+}

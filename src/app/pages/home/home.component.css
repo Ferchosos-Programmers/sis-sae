@@ -1,0 +1,124 @@
+/* Estilo general */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://tse2.mm.bing.net/th?id=OIG4.dEmkzRXswwpPhLHx9LJa&pid=ImgGn') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 60px 0;
+}
+
+.benefits h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.benefits .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.benefits .card:hover {
+    transform: scale(1.05);
+}
+
+.benefits .card-title {
+    font-weight: bold;
+    color: #416892;
+    text-align: center;
+}
+
+/* Facilities Section */
+.facilities {
+    padding: 60px 0;
+}
+
+.facilities h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.facilities .img-fluid {
+    filter: grayscale(70%);
+    transition: filter 0.3s ease-in-out;
+    max-height: 90%;
+}
+
+.facilities .img-fluid:hover {
+    filter: grayscale(0%);
+}
+
+/* Careers Section */
+.careers .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.careers .card:hover {
+    transform: scale(1.05);
+}
+
+.careers .card-title {
+    color: #416892;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+.careers .card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Ajuste para mayor legibilidad en dispositivos móviles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .benefits h2,
+    .facilities h2,
+    .careers h2 {
+        font-size: 2rem;
+    }
+}

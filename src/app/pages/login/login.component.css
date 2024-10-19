@@ -1,0 +1,18 @@
+.cascading-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+}
+
+#login{
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row{
+    font-family: 'Times New Roman', Times, serif;
+}

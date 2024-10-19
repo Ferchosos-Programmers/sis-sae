@@ -1,0 +1,84 @@
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.offcanvas{
+    width: 20%;
+}
+
+/* Fondo con gradiente suave */
+.modern-nav {
+    background: linear-gradient(135deg, #343a40, #212529);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Tipografía moderna y elegante */
+  .modern-brand, .modern-title {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  /* Estilo del botón toggler */
+  .modern-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .modern-toggler:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Estilo del menú offcanvas */
+  .modern-offcanvas {
+    background: #1f1f1f;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Enlaces con estilo moderno */
+  .modern-link {
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .modern-link:hover {
+    color: #00d4ff;
+    border-bottom: 2px solid #00d4ff;
+  }
+  
+  /* Dropdown moderno */
+  .modern-dropdown {
+    background-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-item:hover {
+    color: #807c7c;
+  }
+
+  /* Botón de cierre de sesión */
+  .modern-btn {
+    background-color: #dc3545;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .modern-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  /* Efectos para botones y enlaces */
+  button, .nav-link {
+    transition: transform 0.2s;
+  }
+  
+  button:hover, .nav-link:hover {
+    transform: scale(1.05);
+  }
+  

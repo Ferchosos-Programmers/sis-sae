@@ -1,0 +1,75 @@
+<nav class="navbar navbar-dark bg-dark fixed-top p-1 modern-nav">
+  <div class="container-fluid">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">SAE</a>
+    <div
+      class="offcanvas offcanvas-start bg-dark text-light modern-offcanvas"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SAE</h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <ng-container *ngIf="ocultar">
+            <ng-container *ngIf="rol === 'Administrador'">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="usuarios">Usuarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="cursos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="materias">Materias</a>
+              </li>
+              <button class="btn btn-sm btn-danger modern-btn" (click)="logout()">
+                Cerrar Sesión
+              </button>
+            </ng-container>
+            <ng-container *ngIf="rol === 'Profesor'">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="cursos">Cursos</a>
+              </li>
+              <button class="btn btn-sm btn-danger modern-btn" (click)="logout()">
+                Cerrar Sesión
+              </button>
+            </ng-container>
+            <ng-container *ngIf="rol === 'Alumno'">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="materias">Materias</a>
+              </li>
+              <button class="btn btn-sm btn-danger modern-btn" (click)="logout()">
+                Cerrar Sesión
+              </button>
+            </ng-container>
+          </ng-container>
+          <ng-container *ngIf="!ocultar">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="login">Iniciar Sesión</a>
+            </li>
+          </ng-container>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
